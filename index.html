@@ -138,13 +138,13 @@
         For nowadays mobile camera, bridging the gap between optical design, system machining, and post-processing pipeline is an insightful vision to further enhance the image quality. Based on the physical procedure of imaging, I have done several projects with Huawei including some smartphones' applications in 2021 (e.g. Huawei P50). Currently, I am looking for a PostDoc position (graduate at 2023/07) and focusing on my doctoral dissertation.
     </p>
 
-        <h4><li>Optical Imaging Simulation</li></h4>
-        <img style="width:96%;" src="images/imaging simulation.gif"> 
+        <h4><li>Computational Optics for each camera</li></h4>
+        <img style="width:96%;" src="images/tolerance.gif">
         <p class="w3-justify">
-        <a style="color: #447ec9" href="https://github.com/TanGeeGo/ImagingSimulation">Project Page</a> | <a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3474088">Paper</a>
+        <a style="color: #447ec9" href="https://doi.org/10.1109/TPAMI.2022.3200725">Paper</a>
         </p>
         <p class="w3-justify">
-        I build the <span style="color:red">Optical PSF Model</span> based on <strong>ray tracing</strong> and <strong>coherent superposition</strong>, considering the geometric propagation and wave properties of light in the meanwhile. The calculation has less assumptions and generate more accurate simulation when compared with commercial optical design program (e.g., Zemax) and other SOTA algorithms. The Model is also validated to work well in real scene.
+        I build <span style="color:red">a physical-based camera perturbation model</span> to predict the deviation of systems, aiming at constructing proxy cameras whose imaging results are close to reality. These proxy cameras are to generate the data pairs that characterize the mapping of optical degradation, thereby fast adapting to the data acquisition of new devices with tolerance. Evaluation shows that the proposed method outperforms commercial optical design program (e.g., CODE V) and other SOTA algorithms, <strong>shedding light on the joint of image signal reception (lens and sensor) and image signal processing (ISP)</strong>.
         </p> 
 
         <h4><li>Dense Degradation Calibration</li></h4>
@@ -156,14 +156,14 @@
         I build <span style="color:red">the first deep-learning based method to calibrate the optical degradation of camera</span>. The system generates realistic imaging results of a specific camera. And the postprocessing system can be integrated into existing ISP pipeline realizes <strong>extreme-quality</strong> computational imaging.
         </p> 
 
-        <h4><li>Computational Optics for each camera</li></h4>
-        <img style="width:96%;" src="images/tolerance.gif">
+        <h4><li>Optical Imaging Simulation</li></h4>
+        <img style="width:96%;" src="images/imaging simulation.gif"> 
         <p class="w3-justify">
-        <a style="color: #447ec9" href="https://doi.org/10.1109/TPAMI.2022.3200725">Paper</a>
+        <a style="color: #447ec9" href="https://github.com/TanGeeGo/ImagingSimulation">Project Page</a> | <a style="color: #447ec9" href="https://dl.acm.org/doi/abs/10.1145/3474088">Paper</a>
         </p>
         <p class="w3-justify">
-        I build <span style="color:red">a physical-based camera perturbation model</span> to predict the deviation of systems, aiming at constructing proxy cameras whose imaging results are close to reality. These proxy cameras are to generate the data pairs that characterize the mapping of optical degradation, thereby fast adapting to the data acquisition of new devices with tolerance. Evaluation shows that the proposed method outperforms commercial optical design program (e.g., CODE V) and other SOTA algorithms, <strong>shedding light on the joint of image signal reception (lens and sensor) and image signal processing (ISP)</strong>.
-        </p>  
+        I build the <span style="color:red">Optical PSF Model</span> based on <strong>ray tracing</strong> and <strong>coherent superposition</strong>, considering the geometric propagation and wave properties of light in the meanwhile. The calculation has less assumptions and generate more accurate simulation when compared with commercial optical design program (e.g., Zemax) and other SOTA algorithms. The Model is also validated to work well in real scene.
+        </p>      
 
   </div>
   
@@ -173,7 +173,7 @@
       <p><li> 8/2022, Imaging Simulation at <a href="https://s2022.siggraph.org/">SIGGRAPH 2022, Vancouver, Canada</a>.</li></p>	  
   </div>
  <!-- The Publications Section -->
-  <div class="w3-container w3-padding-32"" id="publications">
+  <div class="w3-container w3-padding-32" id="publications">
     <h2>Research</h2>
       <p class="w3-left-align" style="line-height:200%">
         I'm interested in developing the algorithms that jointly consider the optics and the post-processing pipeline. Moreover, physical-based computer vision and computer graphics are also exciting to me.
